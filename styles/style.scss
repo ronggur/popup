@@ -12,6 +12,9 @@ Description:
 body {
 	padding: 20px;
 }
+html {
+    -webkit-text-size-adjust: 100%;
+}
 a {
 	color: #ed7103;
 	text-decoration: none;
@@ -42,10 +45,10 @@ a {
 #modal{
 	position: absolute;
 	z-index: 9000;
-	width: 80%;
+	width: 90%;
 	left: 50%;
-	margin-left: -40%;
-	max-width: 80%;
+	margin-left: -45%;
+	max-width: 90%;
 	display: block;
 	@include box-shadow(0px 0px 10px 0px rgba(0,0,0,0.9));
 	/* modal -transparent */
